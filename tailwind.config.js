@@ -5,9 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        slideFade: {
+          "0%": { opacity: "0", transform: "translateY(-12px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+      },
+      animation: {
+        slideFade: "slideFade 0.45s ease-in-out",
+      },
+    },
   },
-  plugins: [
-    require('tailwindcss-animate'), // Если используете анимации animate-in
-  ],
-}
+  plugins: [require("tailwindcss-animate")],
+};

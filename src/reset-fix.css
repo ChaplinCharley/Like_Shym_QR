@@ -1,0 +1,14 @@
+/* 💚 Полный сброс влияния reset'ов на кнопки */
+button {
+  all: revert !important;
+}
+
+/* Потом снова чуть стилизуем базово */
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+}
