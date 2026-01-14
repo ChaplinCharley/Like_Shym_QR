@@ -4,20 +4,20 @@ import { Plus, Minus, ShoppingBag, Heart } from "lucide-react";
 // --- МЕНЮ ---
 const MENU = {
   breakfasts: [
-    { id: 1, name: 'Яйца жареные с сосисками', price: 1000, desc: 'Классический завтрак с яйцами и сосисками', img: '/images/breakfast_eggs.jpg' },
+    { id: 1, name: 'Яйца жареные с сосисками', price: 1000, desc: 'Классический завтрак с яйцами и сосисками', img: '/images/eggs_sausage.jpg' },
     { id: 2, name: 'Шакшука', price: 1200, desc: 'Яйца в томатном соусе с овощами', img: '/images/shakshuka.jpg' },
     { id: 3, name: 'Гренки с чесночным соусом', price: 800, desc: 'Хрустящие гренки с ароматным соусом', img: '/images/grenki.jpg' },
     { id: 4, name: 'Оладьи (сгущенка/сметана/джем)', price: 800, desc: '4 шт. на выбор с добавками', img: '/images/oladji.jpg' },
-    { id: 5, name: 'Блинчики сытные (курица, грибы, фарш)', price: 1200, desc: 'Плотные блинчики с начинкой', img: '/images/blinchiki.jpg' },
+    { id: 5, name: 'Блинчики сытные (курица, грибы, фарш)', price: 1200, desc: 'Плотные блинчики с начинкой', img: '/images/blinchiki_meat.jpg' },
     { id: 6, name: 'Блинчики сладкие (джем/сгущенка/творог)', price: 900, desc: 'Нежные сладкие блинчики', img: '/images/blinchiki_sweet.jpg' },
   ],
   salads: [
-    { id: 10, name: 'Свежий салат', price: 1200, desc: 'Огурцы, помидоры, зелень', img: '/images/fresh.jpg' },
-    { id: 11, name: 'Ачучук', price: 1200, desc: 'Пикантный восточный салат', img: '/images/achuchuk.jpg' },
-    { id: 12, name: 'Оливье', price: 1500, desc: 'Классический салат оливье', img: '/images/olivie.jpg' },
+    { id: 10, name: 'Свежий салат', price: 1200, desc: 'Огурцы, помидоры, зелень', img: '/images/fresh_salad.jpg' },
+    { id: 11, name: 'Ачучук', price: 1200, desc: 'Пикантный восточный салат', img: '/images/achuchuk.jpeg' },
+    { id: 12, name: 'Оливье', price: 1500, desc: 'Классический салат оливье', img: '/images/olivie.jpeg' },
   ],
   first_courses: [
-    { id: 20, name: 'Шурпа (мясная)', price: 1300, desc: 'Наваристый бульон с мясом', img: '/images/shurpa.jpg' },
+    { id: 20, name: 'Шурпа (мясная)', price: 1300, desc: 'Наваристый бульон с мясом', img: '/images/shurpa.jpeg' },
     { id: 21, name: 'Рассольник', price: 1300, desc: 'Горячий суп с огуречным рассолом', img: '/images/rassolnik.jpg' },
     { id: 22, name: 'Солянка', price: 1700, desc: 'Суп с колбасками и лимоном', img: '/images/solyanka.jpg' },
     { id: 23, name: 'Нарын', price: 1400, desc: 'Киргизское блюдо с лапшой и мясом', img: '/images/naryn.jpg' },
@@ -32,24 +32,24 @@ const MENU = {
     { id: 34, name: 'Гуляш', price: 1500, desc: 'Мясо в подливе, подаётся с гарниром', img: '/images/gulyash.jpg' },
     { id: 35, name: 'Цомян лагман', price: 1900, desc: 'Лапша с мясом и соусом', img: '/images/tsomyan.jpg' },
     { id: 36, name: 'Манты', price: 1500, desc: 'Сочные манты на пару', img: '/images/manty.jpg' },
-    { id: 37, name: 'Бешбармак', price: 2200, desc: 'Национальное блюдо из теста и мяса', img: '/images/beshbarmak.jpg' },
+    { id: 37, name: 'Бешбармак', price: 2200, desc: 'Национальное блюдо из теста и мяса', img: '/images/beshbarmak.png' },
     { id: 38, name: 'Жаркое', price: 1500, desc: 'Картофель с мясом в соусе', img: '/images/jarkoe.jpg' },
     { id: 39, name: 'Куырдак', price: 3500, desc: 'Обжаренные субпродукты с луком', img: '/images/kuyrdak.jpg' },
     { id: 40, name: 'Казан Кебаб', price: 3500, desc: 'Жареное мясо с картофелем', img: '/images/kazan_kebab.jpg' },
   ],
   fastfood: [
     { id: 50, name: 'Классический бургер', price: 1400, desc: 'Сочная котлета, овощи, соус', img: '/images/burger.jpg' },
-    { id: 51, name: 'Double Burger', price: 1800, desc: 'Двойная котлета и сыр', img: '/images/double_burger.jpg' },
-    { id: 52, name: 'Лаваш куриный', price: 1200, desc: 'Куриное филе и фирменный соус', img: '/images/lavash.jpg' },
-    { id: 53, name: 'Лаваш грибной', price: 1300, desc: 'Грибы, овощи, соус', img: '/images/lavash_mushroom.jpg' },
-    { id: 54, name: 'Веган лаваш', price: 1300, desc: 'Овощной лаваш без мяса', img: '/images/vegan_lavash.jpg' },
-    { id: 55, name: 'Люля-кебаб', price: 1300, desc: 'Сочный люля в лаваше', img: '/images/lulya_kebab.jpg' },
+    { id: 51, name: 'Double Burger', price: 1800, desc: 'Двойная котлета и сыр', img: '/images/double_burger.jpeg' },
+    { id: 52, name: 'Лаваш куриный', price: 1200, desc: 'Куриное филе и фирменный соус', img: '/images/lavash.jpeg' },
+    { id: 53, name: 'Лаваш грибной', price: 1300, desc: 'Грибы, овощи, соус', img: '/images/lavash_mushroom.jpeg' },
+    { id: 54, name: 'Веган лаваш', price: 1300, desc: 'Овощной лаваш без мяса', img: '/images/vegan_lavash.jpeg' },
+    { id: 55, name: 'Люля-кебаб', price: 1300, desc: 'Сочный люля в лаваше', img: '/images/lulya_kebab.jpeg' },
   ],
   pizza: [
     { id: 60, name: 'Маргарита', price: 2300, desc: 'Моцарелла и томаты', img: '/images/pizza_m.jpg' },
     { id: 61, name: 'Сырная', price: 2300, desc: 'Много сыра!', img: '/images/pizza_cheese.jpg' },
     { id: 62, name: 'Салями', price: 2400, desc: 'Пикантная салями', img: '/images/pizza_salami.jpg' },
-    { id: 63, name: 'Курица и грибы', price: 2500, desc: 'Курица, грибы, сыр', img: '/images/pizza_chicken.jpg' },
+    { id: 63, name: 'Курица и грибы', price: 2500, desc: 'Курица, грибы, сыр', img: '/images/pizza_chicken.jpeg' },
     { id: 64, name: 'Овощная', price: 2500, desc: 'Свежие овощи и сыр', img: '/images/pizza_veg.jpg' },
     { id: 65, name: 'Болоньеза', price: 2600, desc: 'Мясной соус болоньезе', img: '/images/pizza_bol.jpg' },
     { id: 66, name: 'Мясная', price: 2800, desc: 'Разные виды мяса и сыр', img: '/images/pizza_meat.jpg' },
@@ -61,7 +61,7 @@ const MENU = {
     { id: 73, name: 'Fanta 1L', price: 700, desc: 'Фанта большая', img: '/images/fanta1l.jpg' },
     { id: 74, name: 'Fuse Tea 0.5L', price: 400, desc: 'Холодный чай', img: '/images/fuse05.jpg' },
     { id: 75, name: 'Fuse Tea 1L', price: 700, desc: 'Холодный чай большой', img: '/images/fuse1l.jpg' },
-    { id: 76, name: 'Горилла', price: 500, desc: 'Энергетический напиток', img: '/images/gorilla.jpg' },
+    { id: 76, name: 'Горилла', price: 500, desc: 'Энергетический напиток', img: '/images/gorilla.png' },
     { id: 77, name: 'Дизи', price: 500, desc: 'Энергетик DIZI', img: '/images/dizi.jpg' },
     { id: 78, name: 'Какао (мал.)', price: 400, desc: 'Маленький стакан какао', img: '/images/cocoa_s.jpg' },
     { id: 79, name: 'Какао (ср.)', price: 600, desc: 'Средний стакан какао', img: '/images/cocoa_m.jpg' },
@@ -180,11 +180,11 @@ function App() {
                     return (
                       <div key={item.id} className="mb-2">
                         <div className="bg-white rounded-[22px] p-3 flex gap-3 shadow-sm active:scale-[0.98] transition-all">
-                          <div className="w-20 h-20 bg-gray-50 rounded-[18px] overflow-hidden flex-shrink-0">
+                          <div className="w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] bg-gray-50 rounded-[18px] overflow-hidden flex-shrink-0 shadow-sm border border-black/5">
                             <img
                               src={item.img}
-                              className="w-full h-full object-cover"
                               alt={item.name}
+                              className="w-full h-full object-cover object-center transition-transform duration-300 hover:scale-105"
                             />
                           </div>
                           <div className="flex flex-col flex-grow justify-between py-1">
